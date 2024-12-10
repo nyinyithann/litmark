@@ -32,9 +32,9 @@
     "sanitize"
   ],
   "dependencies": {
-    "lit": "^2.6.1",
-    "marked": "^4.2.12",
-    "sanitize-html": "^2.9.0"
+    "lit": "^3.2.1",
+    "marked": "^15.0.3",
+    "sanitize-html": "^2.13.1"
   },
   "devDependencies": {
     "@types/marked": "^4.0.7",
