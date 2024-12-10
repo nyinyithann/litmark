@@ -33,10 +33,6 @@ export class MarkdownDirective extends AsyncDirective {
 
     new Promise<string>((resolve, reject) => {
       marked.parse(rawMarkdown, {async : true}).then((result: string) => resolve(result), (error: Error) => reject(error));
-      // marked.parse(rawMarkdown), (error, result) => {
-      //   if (error) return reject(error);
-      //   resolve(result);
-      // });
     })
       .then((rawHTML) => {
         if (mergedOptions.skipSanitization) {
