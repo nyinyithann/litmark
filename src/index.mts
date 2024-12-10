@@ -2,7 +2,7 @@ import { directive } from "lit/directive.js";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import { AsyncDirective } from "lit/async-directive.js";
 import { marked } from "marked";
-import sanitizeHTML from "sanitize-html";
+import  sanitizeHTML from "sanitize-html"; // duck
 
 type Options = typeof MarkdownDirective.defaultOptions;
 
